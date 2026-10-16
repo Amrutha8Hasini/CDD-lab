@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Display the text file
-        run: cat message.txt
+        run: cat Experiment-6/message.txt
 
       - name: Check file contains expected text
         run: grep "Hello from CI/CD lab" message.txt
